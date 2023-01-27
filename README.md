@@ -47,8 +47,7 @@ In order to use the model after training, the following command can be executed 
 
 - How dangerous is the coronavirus to asthmatic teenagers?
 - Can coronavirus be killed by hot or cold temperatures?
-- Is it necessary to cover my face in public?
-- And if so, how can I do it?
+- Is it necessary to cover my face in public? And if so, how can I do it?
 - When the flu claims far more lives than the coronavirus, why be concerned?
 - What can I do if a member of my family believes they have the coronavirus?
 
