@@ -57,3 +57,28 @@ The model was finetuned on 4 Epochs only. The results with number of steps, elap
 
 `openai api fine_tunes.results -i <YOUR_FINE_TUNE_JOB_ID>`
 
+##Demo
+
+To use the newly created finetuned model, we can start by testing it first in the Open AI Playground. Head over to the [Playground](https://beta.openai.com/playground "Playground") and choose your finetuned model, under model, and in fine-tunes.
+![3](https://user-images.githubusercontent.com/50315486/215025733-0240a686-30a6-4fcb-aeff-b4a019f3afd2.png)
+
+From here, we can test out some prompts to see how the finetuned model performs. We can also change different parameters from the playground side bar to adjust the model. Few examples are given in the images below:
+
+![1](https://user-images.githubusercontent.com/50315486/215027141-dfa9b81a-4c02-4c99-8e71-6d6ebf1d7a24.png)
+
+Another way you can test your model is by using cmd/terminal, for this purpose first the API key needs to be exported, after that follwing command can be executed with the prompt which ends with ->
+
+`openai api completions.create -m <FINE_TUNED_MODEL> -p <YOUR_PROMPT>`
+
+Some test examples are given below 
+
+![2](https://user-images.githubusercontent.com/50315486/215027345-921f637c-4562-4a2f-a8c5-5072424b8e47.png)
+
+Different parameters for comlpetion can also be adjused in the terminal by using the following command 
+
+`openai api completions.create -h`
+
+![5](https://user-images.githubusercontent.com/50315486/215027382-cedd605c-2bf8-4d6c-952e-c76843c0cd6f.png)
+
+These arguments can be added accoding to the need
+
