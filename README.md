@@ -60,6 +60,7 @@ The model was finetuned on 4 Epochs only. The results with number of steps, elap
 ##Demo
 
 To use the newly created finetuned model, we can start by testing it first in the Open AI Playground. Head over to the [Playground](https://beta.openai.com/playground "Playground") and choose your finetuned model, under model, and in fine-tunes.
+
 ![3](https://user-images.githubusercontent.com/50315486/215025733-0240a686-30a6-4fcb-aeff-b4a019f3afd2.png)
 
 From here, we can test out some prompts to see how the finetuned model performs. We can also change different parameters from the playground side bar to adjust the model. Few examples are given in the images below:
