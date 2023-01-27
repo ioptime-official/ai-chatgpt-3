@@ -57,7 +57,7 @@ The model was finetuned on 4 Epochs only. The results with number of steps, elap
 
 `openai api fine_tunes.results -i <YOUR_FINE_TUNE_JOB_ID>`
 
-##Demo
+## Demo
 
 To use the newly created finetuned model, we can start by testing it first in the Open AI Playground. Head over to the [Playground](https://beta.openai.com/playground "Playground") and choose your finetuned model, under model, and in fine-tunes.
 
