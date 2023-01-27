@@ -52,4 +52,9 @@ In order to use the model after training, the following command can be executed 
 - When the flu claims far more lives than the coronavirus, why be concerned?
 - What can I do if a member of my family believes they have the coronavirus?
 
+## Results 
+
+The model was finetuned on 4 Epochs only. The results with number of steps, elapsed tokens, elapsed examples, training loss, training sququence accuracy and training token accuracy can be seen in results.csv and can be obtained by using the follwing command
+
+`openai api fine_tunes.results -i <YOUR_FINE_TUNE_JOB_ID>`
 
