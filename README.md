@@ -37,7 +37,7 @@ At the end to start fine tuning, the following command can be executed, which co
 
 `openai api fine_tunes.create -t OPENAI_PREPARED_DATA_FILE -m MODEL_NAME
 `
-For COVID-19 based fine tuning, davinci model was used and the total fine-tuning cost was 9.28$.
+For COVID-19 based fine tuning, **davinci** model was used and the total fine-tuning cost was 9.28$.
 
 In order to use the model after training, the following command can be executed with the prompt and the separator or the model can be tested at OpenAI’s playground which can be accessed through this [link](https://beta.openai.com/playground "link"):
 
@@ -53,7 +53,7 @@ In order to use the model after training, the following command can be executed 
 
 ## Results 
 
-The model was finetuned on 4 Epochs only. The results with number of steps, elapsed tokens, elapsed examples, training loss, training sququence accuracy and training token accuracy can be seen in results.csv and can be obtained by using the follwing command
+The model was finetuned on 4 Epochs only. The results with number of steps, elapsed tokens, elapsed examples, training loss, training sququence accuracy and training token accuracy can be seen in **results.csv** and can be obtained by using the follwing command
 
 `openai api fine_tunes.results -i <YOUR_FINE_TUNE_JOB_ID>`
 
