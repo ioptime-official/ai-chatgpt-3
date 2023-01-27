@@ -2,7 +2,7 @@
 
 Fine-tuning GPT-3 involves the following steps:
 
-#### Preparing Data
+## Preparing Data
 
 GPT-3 accepts data in JSONL format, which contains a prompt with a separator and a completion. The format looks like:
 
@@ -15,7 +15,7 @@ In order to convert it to JSONL format which GPT-3 accepts, a [python script](ht
 `{"prompt": "When should I get tested? ->", "completion": "Your doctor will tell you if you need to get tested."}
 `
 
-#### Fine Tuning
+## Fine Tuning
 
 To get started, the openai python dependency was installed using the following commands:
 
@@ -43,7 +43,7 @@ In order to use the model after training, the following command can be executed 
 
 `openai api completions.create -m FINETUNED MODEL -p "ADD PROMPT HERE ->" -M 200
 `
-#### Random Questions for Testing
+## Random Questions for Testing
 
 - How dangerous is the coronavirus to asthmatic teenagers?
 - Can coronavirus be killed by hot or cold temperatures?
